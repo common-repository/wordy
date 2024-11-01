@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+	<head>
+		<title>Wordy Payment</title>
+	</head>
+
+	<body>
+
+		<div id="loading">Loading Wordy Payment...</div>
+
+		<script type="text/javascript">
+
+			top.wordy_iframe_loaded();
+
+			function checkForm() 
+			{
+				if (document.getElementById('wordyLoginForm') != null) 
+				{
+					clearInterval(checkFormInterval);
+					document.getElementById('wordyLoginForm').submit();
+				}
+			}
+			var checkFormInterval = setInterval(checkForm, 100);
+
+		</script>
+
+	</body>
+
+</html>

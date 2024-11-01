@@ -1,0 +1,168 @@
+
+.wordy {
+  position: relative;
+}
+
+  .wordy h2 {
+  	background: url('../images/logo.png') no-repeat left 16px;
+  	padding-left: 36px !important;
+  }
+
+  .wordy h3 {
+  	margin-top: 30px
+  }
+
+  .wordy p.submit {
+  	padding-top: 10px;
+  	text-align: right;
+  }
+  
+  .wordy #wordy-enabled {
+  	padding-left: 20px;
+  	background: url('../images/out.gif') left 2px no-repeat;
+  }
+
+  .wordy label {
+    padding-left: 5px;
+  }
+
+#wordy-publish-wordy {
+  text-align: right;
+  margin-bottom: 5px;
+  float: left;
+}
+
+#wordy-quick-guide {
+	margin: 20px auto;
+	background: #ddd;
+	padding: 10px;
+	width: 480px;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	display: none;
+}
+
+.wordy-logged-in {
+	background: url('../images/in.gif') no-repeat;
+	padding-left: 20px;
+	margin: 0 0 30px;
+	font-size: .85em;
+	color: #999999;
+}
+
+  .wordy-logged-in .button {
+  	margin-left: 10px;
+  }
+
+.wordy-not-logged-in {
+	width: 300px;
+}
+
+  .wordy-not-logged-in form {
+  	margin-left: 20px;
+  }
+
+  .wordy-not-logged-in p.description {
+  	color: #999;
+  }
+
+  .wordy-not-logged-in label, 
+  .wordy-not-logged-in input[type=text], 
+  .wordy-not-logged-in input[type=password] {
+  	display: block;
+  	width: 100%;
+  }
+
+  .wordy-registration label {
+  	padding: 6px 0 2px 3px;
+  	position: relative;
+  	font-size: .8em;
+  	color: #666;
+  }
+
+
+#wordy-signed-in-block p {
+	position: relative;
+	padding: 0px 10px 0 0;
+	margin: 3px 0;
+	width: 330px;
+	-webkit-border-radius: 20px;
+}
+
+  #wordy-signed-in-block p:hover {
+  	background: #eee;
+  }
+
+  #wordy-signed-in-block label {
+  	display: block;
+  	width: 300px;
+  	line-height: 24px;
+  	padding-left: 10px;
+  }
+
+  #wordy-signed-in-block input[type=radio] {
+  	position: absolute;
+  	left: 320px;
+  	top: 4px;
+  }
+
+  #wordy-signed-in-block input[type=submit] {
+  	margin-top: 20px;
+  }
+
+#wordy_dashboard_widget ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+  #wordy_dashboard_widget ul li {
+  	margin-bottom: 0.6em;
+  }
+
+  #wordy_dashboard_widget h4 {
+  	font-weight: normal;
+  }
+
+  #wordy_dashboard_widget h4 abbr {
+  	font-family: "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+  	font-size: 11px;
+  	color: #999999;
+  	margin-left: 3px;
+  }
+
+  #wordy_dashboard_widget p {
+  	margin: 0;
+  	padding: 0;
+  }
+  
+  #wordy_dashboard_widget .twitter_follow {
+    background: transparent url('../images/twitter_16x16.png') no-repeat scroll left;
+    padding: 0 0 0 24px;
+  }
+  
+  .wordy_dashboard_widget_footer {
+    border-top: 1px solid #e4e4e4;
+    padding: 10px 0 0 0;
+    text-align: right;
+  }
+
+.wordy-invalid-label { 
+  color: #CC0000 !important;
+}
+
+.wordy-invalid-input { 
+  border-color: #CC0000 !important;
+}
+
+.wordy td {
+padding:0 5px 0 0 ;
+}
+
+span.wordy-message {
+font-weight:bold;
+}
+
+span.wordy-message a {
+font-weight:normal;
+}
